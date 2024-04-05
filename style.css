@@ -21,13 +21,14 @@ body{
 
 .contato button{
     padding: 10px 10px;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 300;
     background-color: #6200ff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    color: #FFF;
 } 
 
 /* Estilo do Cabeçalho */
@@ -98,8 +99,6 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    max-width: 80%;
-    height: auto;
 }
 
 @keyframes flutuar{
@@ -109,4 +108,9 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+.topo-do-site .img-topo-site img{
+    max-width: 80%;
+    height: auto;
 }
